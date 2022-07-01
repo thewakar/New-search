@@ -3,7 +3,7 @@
   import Navbar from '../components/Navbar.svelte';
   import Footer from '../components/Footer.svelte';
 
-  const title = 'raz-search';
+  const title = 'New-search';
   const description = 'Semantic search over the podcast "How I Built This" by Guy Raz';
 </script>
 
@@ -14,11 +14,11 @@
 
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content="https://raz-search.vercel.app/logo.png" />
+  <meta property="og:image" content="https://new-search.vercel.app/logo.png" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content={title} />
-  <meta name="twitter:image" content="https://raz-search.vercel.app/logo.png" />
+  <meta name="twitter:image" content="https://new-search.vercel.app/logo.png" />
 </svelte:head>
 
 <Navbar />
